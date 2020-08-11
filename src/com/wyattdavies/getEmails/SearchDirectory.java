@@ -44,8 +44,9 @@ public class SearchDirectory {
 		
 		for(String option : preOptions)
 		{
-			
+			//sanity check comment
 		}
+		
 		
 		driver.findElement(By.xpath("")).click();
 		String emailText = driver.findElement(By.className("")).getText();
